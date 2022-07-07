@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  font-family:  'Sora', sans-serif;
+  //font-family: 'Open Sans', sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.main{
+  max-width: 1440px;
+}
+.main_page{
+  background: url("../images/main_bg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30px;
+  &__logo_box{
+    width: 732px;
+    height: 300px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__describe_box{
+    width: 636px;
+    height: 200px;
+    background: #F4A202;
+    padding: 32px 24px 32px 157px;
+
+  }
+  &__title{
+    font-size: 31px;
+    line-height: 40px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+  }
+  &__comment{
+    font-size: 31px;
+    line-height: 40px;
+    color: white;
+    font-weight: 300;
+    margin: 0;
+  }
+}
+
