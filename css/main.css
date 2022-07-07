@@ -13,14 +13,10 @@ body {
   overflow: hidden;
 }
 
-.main {
-  max-width: 1440px;
-}
-
 .main_page {
   background: url("../images/main_bg.jpg") 50% 50% no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   padding-top: 30px;
 }
@@ -50,6 +46,42 @@ body {
   line-height: 40px;
   color: white;
   font-weight: 300;
+  margin: 0;
+}
+
+.target_page {
+  width: 100%;
+  background: #FBCE52;
+  display: flex;
+  justify-content: center;
+  padding: 125px 10px;
+}
+.target_page__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: white;
+  font-size: 86px;
+  line-height: 127px;
+  font-weight: 700;
+}
+.target_page__item {
+  margin-bottom: 17px;
+}
+
+.list-style-element {
+  color: #1D2228;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  vertical-align: top;
+}
+
+.dots_item {
+  color: black;
+  font-size: 86px;
+  line-height: 127px;
+  font-weight: 700;
   margin: 0;
 }
 
