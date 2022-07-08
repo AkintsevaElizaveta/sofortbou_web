@@ -162,4 +162,51 @@ body {
   line-height: 28px;
 }
 
+.app_page {
+  background: url("../images/app_bg.jpg") 50% 50% no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+}
+.app_page__price_box {
+  width: 540px;
+  height: 351px;
+  margin: 0 0 0 auto;
+  background: white;
+  font-weight: 400;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.app_page__comment_box {
+  width: 360px;
+  height: 249px;
+  background: #FBCE52;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app_page__comment {
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+.app_page__price_title {
+  font-size: 30px;
+  line-height: 32px;
+}
+.app_page__price {
+  font-size: 120px;
+  line-height: 126px;
+}
+.app_page__comment {
+  font-size: 18px;
+  line-height: 19px;
+}
+
 /*# sourceMappingURL=main.css.map */
